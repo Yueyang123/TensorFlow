@@ -1,0 +1,1 @@
+ ../../opencv_traincascade.exe -data ../../cascadetrain/haarresult/ -vec ../../cascadetrain/sample.vec  -bg bg.txt -numPos 85 -numNeg 400 -numStages 11 -featureType HARR -w 24 -h 24 -minHitRate 0.996 -maxFalseAlarmRate 0.5 -mode ALL
